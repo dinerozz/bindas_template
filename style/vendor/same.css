@@ -88,6 +88,43 @@
   html {
     overflow-x: hidden;
   }
+  .info-details {
+    width: 100% !important;
+  }
+  .info-details h2 {
+    width: 100% !important;
+    font-size: 44px;
+  }
+  .feature-member {
+    width: 100% !important;
+  }
+  .about-info {
+    width: 100% !important;
+    margin-bottom: 100px;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .portfolio-links {
+    width: 100% !important;
+    margin-top: 60px;
+  }
+  .stats-items {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .team-members {
+    width: 100% !important;
+  }
+  .blog-member {
+    width: 100% !important;
+  }
+  .testimonials {
+    width: 100% !important;
+  }
+  .portfolio {
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 428px) {
   body {
@@ -98,6 +135,91 @@
   }
   html {
     overflow-x: hidden;
+  }
+  .info-details {
+    width: 100% !important;
+  }
+  .info-details h2 {
+    width: 100% !important;
+    font-size: 44px;
+  }
+  .feature-member {
+    width: 100% !important;
+  }
+  .about-info {
+    width: 100% !important;
+    margin-bottom: 100px;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .portfolio-links {
+    width: 100% !important;
+    margin-top: 60px;
+  }
+  .stats-items {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .team-members {
+    width: 100% !important;
+  }
+  .blog-member {
+    width: 100% !important;
+  }
+  .testimonials {
+    width: 100% !important;
+  }
+  .portfolio {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .info-details {
+    width: 100% !important;
+  }
+  .info-details h2 {
+    width: 100% !important;
+    font-size: 44px;
+  }
+  .feature-member {
+    width: 100% !important;
+  }
+  .about-info {
+    width: 100% !important;
+    margin-bottom: 100px;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .portfolio-links {
+    width: 100% !important;
+    margin-top: 60px;
+  }
+  .stats-items {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .team-members {
+    width: 100% !important;
+  }
+  .blog-member {
+    width: 100% !important;
+  }
+  .testimonials {
+    width: 100% !important;
+  }
+  .portfolio {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 375px) {
