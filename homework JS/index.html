@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Объекты</title>
+</head>
+<body>
+    <style>
+        .post-inner{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .post{
+            width: 30%;
+            height: 500px;
+            border: 2px solid #f8f8f9;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        .post img{
+            width: 50%;
+        }
+        .info{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            /* transform: scale(0.5); */
+            background-color: rgb(0,0,0,0.5);
+            transition: .8s;
+        }
+        .post:hover .info{
+            cursor: pointer;
+            opacity: 1;
+            /* transform: scale(1); */
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .header-links ul {
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    background-color: #1d293e;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    top: 60px;
+    left: 0;
+    z-index: 0;
+    transform: translateY(-120%);
+    transition: transform 0.5s ease-in;
+  }
+  .header-links ul li {
+    margin: 10px 0;
+  }
+  .header-icon {
+    display: block !important;
+    cursor: pointer;
+  }
+  .feature-member {
+    width: 40% !important;
+  }
+  .about-info {
+    width: 100% !important;
+    margin-bottom: 100px;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .portfolio-links a {
+    width: 40%;
+    margin-top: 60px;
+  }
+  .stats-items {
+    width: 40% !important;
+    margin-bottom: 30px;
+  }
+  .team-members {
+    width: 40% !important;
+  }
+  .blog-member {
+    width: 45% !important;
+  }
+  .input-form {
+    flex-direction: column !important;
+  }
+  .input:first-child > input {
+    margin-bottom: 20px !important;
+  }
+  .input:nth-child(3) {
+    width: 45% !important;
+  }
+  .form .input > input {
+    width: 45% !important;
+  }
+  .msg > textarea {
+    width: 45%;
+  }
+  #email > input {
+    width: 55% !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  html {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 428px) {
+  body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  html {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* .container{
+        width: 100% !important;
+    } */
+  body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .header-icon {
+    display: block !important;
+    cursor: pointer;
+  }
+  .info-details {
+    width: 100% !important;
+  }
+  .info-details h2 {
+    width: 100% !important;
+    font-size: 44px;
+  }
+  .feature-member {
+    width: 100% !important;
+  }
+  .about-info {
+    width: 100% !important;
+    margin-bottom: 100px;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .portfolio-links {
+    width: 100% !important;
+    margin-top: 60px;
+  }
+  .stats-items {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .team-members {
+    width: 100% !important;
+  }
+  .blog-member {
+    width: 100% !important;
+  }
+  .testimonials {
+    width: 100% !important;
+  }
+  .portfolio {
+    width: 100% !important;
+  }
+  .input-form {
+    flex-direction: column !important;
+  }
+  .input:first-child > input {
+    margin-bottom: 20px !important;
+  }
+  #email > input {
+    width: 100% !important;
+    padding: 20px 40px !important;
+  }
+  .form .input > input {
+    width: 100% !important;
+  }
+  .msg > textarea {
+    width: 100%;
+  }
+}
